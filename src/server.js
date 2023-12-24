@@ -2,10 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const connectDB = require('./db');
 const urlRoutes = require('./routes/urlRoutes');
-// const dotenv = require('dotenv');
+const dotenv = require('dotenv');
 // const mongoose = require('mongoose');
 
-// dotenv.config();
+dotenv.config();
 
 // mongoose.connect(process.env.MONGO).then(()=>{
 //     console.log("Connected to MongoDB...");
